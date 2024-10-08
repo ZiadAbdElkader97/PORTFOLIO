@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-body-color: #222529;
+  --main-color: #16a085;
+  /* --main-color: #0984e3; */
+  --opacity-main-color: #16a08489;
+  --gray-color: #b3b3b3;
+  --main-transition: 0.3s;
+  --heading-size: 48px;
+  --paragraph-size: 16px;
+  --main-fontFamily: "Poppins", sans-serif;
+  --branch-fontFamily: "Montserrat", sans-serif;
+  --main-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-body-color);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 1536px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsive Screen:
+    =======================
+  
+  /* Small devices (Mobiles) */
+@media (max-width: 767px) {
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* X-Large devices (large desktops) */
+@media (min-width: 1200px) {
+}
+
+/* ============================= */

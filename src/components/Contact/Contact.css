@@ -1,0 +1,185 @@
+.contact {
+  width: 100%;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #000;
+}
+.contact .contact-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contact .contact-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-section .contact-sec-one {
+  width: 35%;
+  height: 100%;
+  background-image: linear-gradient(to right, #1d1e20, #202327);
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: var(--main-shadow);
+}
+.contact-sec-one .contact-img {
+  width: 100%;
+  height: 256px;
+  object-fit: cover;
+  margin-bottom: 45px;
+  border-radius: 8px;
+}
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact-details .contact-h2 {
+  color: #fff;
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.contact-details .contact-h3 {
+  color: var(--gray-color);
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+}
+.contact-details .contact-p {
+  color: var(--gray-color);
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+.contact-details .contact-h4 {
+  color: var(--gray-color);
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.contact-details .contact-h4 span {
+  color: #dadada;
+}
+.contact-section .contact-sec-two {
+  width: 60%;
+  height: 100%;
+  background-image: linear-gradient(to right, #1d1e20, #202327);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: var(--main-shadow);
+}
+.contact-sec-two .contact-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.contact-form .contact-err-msg {
+  color: orange;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-image: linear-gradient(to right, #1e2024, #23272b);
+  box-shadow: var(--main-shadow);
+}
+.contact-form .contact-success-msg {
+  color: green;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-image: linear-gradient(to right, #1e2024, #23272b);
+  box-shadow: var(--main-shadow);
+}
+.contact-form .contact-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.contact-info .contact-label {
+  color: var(--gray-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.contact-info .contact-input {
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  background-color: #191b1e;
+  border-width: 2px;
+  border-color: transparent;
+  border-bottom: 2px solid #7d7d7d60;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 8px;
+  transition: var(--main-transition);
+  outline: none;
+}
+.contact-info .contact-input:focus {
+  border-color: var(--main-color);
+}
+.contact-info .contact-textArea {
+  width: 100%;
+  color: #fff;
+  background-color: #191b1e;
+  border-width: 2px;
+  border-color: transparent;
+  border-bottom: 2px solid #7d7d7d60;
+  padding: 10px 15px;
+  border-radius: 8px;
+  outline: none;
+  transition: var(--main-transition);
+  resize: none;
+}
+.contact-info .contact-textArea:focus {
+  border-color: var(--main-color);
+}
+.contact-form .contact-submit-button {
+  width: 100%;
+  height: 50px;
+  color: var(--gray-color);
+  background-color: #191b1e;
+  text-transform: uppercase;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 8px;
+  transition: var(--main-transition);
+}
+.contact-form .contact-submit-button:hover {
+  color: #fff;
+  border-color: var(--main-color);
+}
