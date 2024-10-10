@@ -1,9 +1,8 @@
 import "./Projects.css";
 import Title from "../Layouts/Title";
 import ProjectsCard from "./ProjectsCard";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import proImg1 from "../../assets/ecommerce-app.jpg";
 import proImg2 from "../../assets/food-app.png";
 import proImg3 from "../../assets/todo-app.png";
@@ -15,14 +14,25 @@ import proImg8 from "../../assets/Travel-and-Tour-App.jpg";
 import { FaGithub, FaGlobe } from "react-icons/fa";
 
 export default function Projects() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
   };
-
   return (
     <section className="projects" id="projects">
       <div className="pro-title">
@@ -32,7 +42,7 @@ export default function Projects() {
         />
       </div>
       <div>
-        <Slider {...settings}>
+        <Carousel responsive={responsive}>
           <ProjectsCard
             title="E-Commerce App"
             des="It was Designed by Me to Enable the Buying and Selling
@@ -162,7 +172,7 @@ export default function Projects() {
               </a>
             }
           />
-        </Slider>
+        </Carousel>
       </div>
     </section>
   );

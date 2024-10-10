@@ -19,27 +19,27 @@ export default function Features() {
         />
         <FeaturesCard
           title="Software Engineering"
-          des="I develop front-end websites and make them more beautiful and professional."
+          des="I do software for devices and electronics and install programs."
           icon={<GrUserManager />}
         />
         <FeaturesCard
           title="Problem Solving"
-          des="I develop front-end websites and make them more beautiful and professional."
+          des="I have the ability to solve problems related to networks and programming languages."
           icon={<MdOutlineSyncProblem />}
         />
         <FeaturesCard
           title="It Project Management"
-          des="I develop front-end websites and make them more beautiful and professional."
+          des="I have the ability to manage companies and provide them with networking and electronics tools."
           icon={<GrUserSettings />}
         />
         <FeaturesCard
           title="Business Administration"
-          des="I develop front-end websites and make them more beautiful and professional."
+          des=" the work of managing an organization's resources, time and people."
           icon={<IoSettingsOutline />}
         />
         <FeaturesCard
           title="Modifying Codes"
-          des="I develop front-end websites and make them more beautiful and professional."
+          des="I have the ability to fix errors in writing the code and work on changing it and developing from it."
           icon={<FaCode />}
         />
       </div>

@@ -10,6 +10,7 @@ export default function Education() {
       animate={{ opacity: 1, transition: { duration: 0.6 } }}
       className="education"
     >
+      {/* Part One */}
       <div className="edu-details">
         <p className="edu-title">2016 - 2021</p>
         <h2 className="edu-heading">
@@ -19,6 +20,7 @@ export default function Education() {
           </span>
         </h2>
       </div>
+      {/* Part Two */}
       <div className="edu-res-card">
         <ResumeCard
           title="Bachelor of Commerce"

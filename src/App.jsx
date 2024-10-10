@@ -12,7 +12,7 @@ export default function App() {
   return (
     <div className="app">
       <Navbar />
-      <div className="container">
+      <div className="max-w-screen-xl mx-auto">
         <Banner />
         <Features />
         <Projects />

@@ -36,31 +36,3 @@ a {
 ul {
   list-style: none;
 }
-.container {
-  max-width: 1536px;
-  padding-left: 80px;
-  padding-right: 80px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Responsive Screen:
-    =======================
-  
-  /* Small devices (Mobiles) */
-@media (max-width: 767px) {
-}
-
-/* Medium devices (tablets) */
-@media (min-width: 768px) and (max-width: 991px) {
-}
-
-/* Large devices (desktops) */
-@media (min-width: 992px) and (max-width: 1199px) {
-}
-
-/* X-Large devices (large desktops) */
-@media (min-width: 1200px) {
-}
-
-/* ============================= */

@@ -16,8 +16,13 @@
 }
 .layout-title .layout-address {
   color: #d6d6d6;
-  font-size: 48px;
+  font-size: 35px;
   font-weight: bold;
   line-height: 1;
   text-transform: capitalize;
+}
+@media (min-width: 1024px) {
+  .layout-title .layout-address {
+    font-size: 48px;
+  }
 }

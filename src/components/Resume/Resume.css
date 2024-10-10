@@ -12,8 +12,18 @@
 .resume .resume-ul {
   width: 100%;
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto;
   box-shadow: var(--main-shadow);
+}
+@media (min-width: 667px) {
+  .resume .resume-ul {
+    grid-template-columns: auto auto;
+  }
+}
+@media (min-width: 1280px) {
+  .resume .resume-ul {
+    grid-template-columns: auto auto auto auto;
+  }
 }
 .resume-ul .resume-li {
   width: 100%;
@@ -34,6 +44,9 @@
 .resume-ul .resume-li:hover {
   background-color: #000000ab;
 }
+.education {
+  width: 100%;
+}
 .edu-details {
   width: 100%;
   display: flex;
@@ -43,23 +56,29 @@
   margin-top: 50px;
   text-transform: uppercase;
 }
-.edu-title {
+.edu-details .edu-title {
   color: var(--main-color);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 4px;
 }
-.edu-heading {
+.edu-details .edu-heading {
   color: #b6b6b6;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 700;
   line-height: 40px;
+}
+@media (min-width: 1024px) {
+  .edu-details .edu-heading {
+    font-size: 35px;
+  }
 }
 .edu-res-card {
   width: 100%;
   position: relative;
 }
 .edu-res-card::before {
+  display: none;
   content: "";
   position: absolute;
   width: 6px;
@@ -68,13 +87,18 @@
   left: 160px;
   background-color: #17191c;
 }
+@media (min-width: 1280px) {
+  .edu-res-card::before {
+    display: block;
+  }
+}
 .resume-card {
-  width: 70%;
-  height: 250px;
+  width: 95%;
+  height: auto;
   background-image: linear-gradient(to right, #1d1e20, #202327);
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 24px;
   position: relative;
   padding: 40px 48px;
   margin-top: 80px;
@@ -84,7 +108,15 @@
   box-shadow: var(--main-shadow);
   transition: var(--main-transition);
 }
+@media (min-width: 1024px) {
+  .resume-card {
+    width: 70%;
+    height: 250px;
+    gap: 40px;
+  }
+}
 .resume-card::before {
+  display: none;
   content: "";
   position: absolute;
   height: 6px;
@@ -93,25 +125,43 @@
   top: 25%;
   background-color: #17191c;
 }
+@media (min-width: 1280px) {
+  .resume-card::before {
+    display: block;
+  }
+}
 .resume-card:hover {
   background-image: linear-gradient(to bottom, #00000079, #1e2024);
 }
 .resume-card .resume-box {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  gap: 16px;
   position: relative;
 }
+@media (min-width: 1024px) {
+  .resume-card .resume-box {
+    flex-direction: row;
+    align-items: center;
+  }
+}
 .resume-box .resume-box-dots {
+  display: none;
   position: absolute;
   width: 20px;
   height: 20px;
-  left: -100px;
-  top: 15px;
+  left: -89px;
+  top: 16px;
   background: var(--bg-body-color);
   border: 4px solid #000;
   border-radius: 50%;
   transition: var(--main-transition);
+}
+@media (min-width: 1280px) {
+  .resume-box .resume-box-dots {
+    display: block;
+  }
 }
 .resume-card:hover .resume-box-dots {
   background: var(--main-color);
@@ -123,9 +173,14 @@
 }
 .box-details .box-title {
   color: #d4d4d4;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   transition: all 0.2s;
+}
+@media (min-width: 667px) {
+  .box-details .box-title {
+    font-size: 24px;
+  }
 }
 .box-details .box-subTitle {
   color: var(--gray-color);
@@ -136,17 +191,23 @@
 .resume-card .box-result {
   color: var(--main-color);
   font-size: 14px;
+  text-align: center;
   font-weight: 500;
   background-color: #121517;
   box-shadow: var(--main-shadow);
-  padding: 9px 10px;
+  padding: 8px 15px;
   border-radius: 8px;
 }
 .resume-card .box-paragraph {
   color: var(--gray-color);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   transition: all 0.2s;
+}
+@media (min-width: 667px) {
+  .resume-card .box-paragraph {
+    font-size: 16px;
+  }
 }
 .resume-card:hover .box-title,
 .resume-card:hover .box-subTitle,
@@ -171,13 +232,30 @@
 .skills .skill-section {
   width: 100%;
   display: flex;
-  gap: 80px;
+  flex-direction: column;
+  gap: 40px;
+}
+@media (min-width: 1024px) {
+  .skills .skill-section {
+    flex-direction: row;
+    gap: 80px;
+  }
 }
 .skill-section .skill-sec-one {
-  width: 50%;
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .skill-section .skill-sec-one {
+    width: 50%;
+  }
 }
 .skill-section .skill-sec-two {
-  width: 50%;
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .skill-section .skill-sec-two {
+    width: 50%;
+  }
 }
 .skill-section .skill-paragraph {
   color: #dadada;

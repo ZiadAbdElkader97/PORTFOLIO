@@ -21,12 +21,16 @@ export default function Banner() {
   });
 
   return (
-    <section className="banner" id="home">
-      <div className="banner-img">
-        <img src={profileImg} className="main-img" alt="banner-img" />
+    <section className="banner lgl:flex-row xl:gap-0" id="home">
+      <div className="banner-img lgl:w-1/2">
+        <img
+          src={profileImg}
+          className="main-img lgl:w-[570px] lgl:h-[600px]"
+          alt="banner-img"
+        />
         <div className="bg-img"></div>
       </div>
-      <div className="banner-details">
+      <div className="banner-details lgl:w-1/2">
         <div className="banner-info">
           <h4 className="banner-h4">Welcome To My World</h4>
           <h1 className="banner-h1">
@@ -47,7 +51,7 @@ export default function Banner() {
             the team .. I hope to reach my goal .. thanks to God.
           </p>
         </div>
-        <div className="banner-content">
+        <div className="banner-content xl:flex-row">
           <div className="banner-icons-sections">
             <h2 className="icons-heading">find me in</h2>
             <div className="banner-icons">

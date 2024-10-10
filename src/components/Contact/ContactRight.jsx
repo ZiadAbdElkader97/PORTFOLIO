@@ -54,7 +54,7 @@ export default function ContactRight() {
         {successMsg && (
           <p className="contact-success-msg animate-bounce">{successMsg}</p>
         )}
-        <div className="w-full flex gap-10">
+        <div className="w-full flex flex-col lgl:flex-row gap-10">
           <div className="contact-info w-1/2">
             <p className="contact-label">Your Name</p>
             <input
