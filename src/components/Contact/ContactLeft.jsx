@@ -23,17 +23,17 @@ export default function ContactLeft() {
         </p>
         <h4 className="contact-h4">
           {" "}
-          <FaPhoneSquareAlt />
+          <FaPhoneSquareAlt className="contact-icons" />
           Phone: <span>01148915059</span>
         </h4>
         <h4 className="contact-h4">
           {" "}
-          <IoIosMail />
+          <IoIosMail className="contact-icons" />
           Email: <span>zizoahlawy97@gmail.com</span>
         </h4>
         <h4 className="contact-h4">
           {" "}
-          <FaLocationDot />
+          <FaLocationDot className="contact-icons" />
           Location: <span>Cairo, Egypt</span>
         </h4>
         <div className="banner-icons-sections">

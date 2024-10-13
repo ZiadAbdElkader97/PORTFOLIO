@@ -83,6 +83,9 @@
   align-items: center;
   gap: 7px;
 }
+.contact-h4 .contact-icons {
+  font-size: 19px;
+}
 .contact-details .contact-h4 span {
   color: #dadada;
 }

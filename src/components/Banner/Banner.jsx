@@ -13,7 +13,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 export default function Banner() {
   const [text] = useTypewriter({
-    words: ["Professional Coder.", "Front End Developer.", "It Engineer."],
+    words: ["Professional Coder.", "Front End Developer."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -21,11 +21,11 @@ export default function Banner() {
   });
 
   return (
-    <section className="banner lgl:flex-row xl:gap-0" id="home">
+    <section className="banner" id="home">
       <div className="banner-img lgl:w-1/2">
         <img
           src={profileImg}
-          className="main-img lgl:w-[570px] lgl:h-[600px]"
+          className="main-img lgl:w-[550px] lgl:h-[600px]"
           alt="banner-img"
         />
         <div className="bg-img"></div>

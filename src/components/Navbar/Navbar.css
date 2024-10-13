@@ -16,17 +16,33 @@
 .navbar-logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 7px;
+}
+@media (min-width: 1024px) {
+  .navbar-logo {
+    gap: 10px;
+  }
 }
 .logo-img {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border: 2px solid #bababa82;
   border-radius: 50%;
 }
+@media (min-width: 1024px) {
+  .logo-img {
+    width: 60px;
+    height: 60px;
+  }
+}
 .logo-heading {
-  font-size: 25px;
+  font-size: 22px;
   color: #dddddd;
+}
+@media (min-width: 1024px) {
+  .logo-heading {
+    font-size: 25px;
+  }
 }
 .navbar-ul {
   display: none;

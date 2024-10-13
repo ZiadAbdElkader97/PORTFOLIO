@@ -9,7 +9,7 @@ import proImg3 from "../../assets/todo-app.png";
 import proImg4 from "../../assets/educational-app.jpg";
 import proImg5 from "../../assets/prayer-app.jpg";
 import proImg6 from "../../assets/real-estate-app.jpeg";
-import proImg7 from "../../assets/Shop-app.png";
+import proImg7 from "../../assets/movie-app.jpg";
 import proImg8 from "../../assets/Travel-and-Tour-App.jpg";
 import { FaGithub, FaGlobe } from "react-icons/fa";
 
@@ -82,12 +82,15 @@ export default function Projects() {
             ... to Record The Most Important Notes and Tasks Easily."
             img={proImg3}
             gitHub={
-              <a href="http://google.com" target="_blank">
+              <a
+                href="https://github.com/ZiadAbdElkader97/TodoApp"
+                target="_blank"
+              >
                 <FaGithub />
               </a>
             }
             view={
-              <a href="http://google.com" target="_blank">
+              <a href="https://todo-app-plum-zeta.vercel.app/" target="_blank">
                 <FaGlobe />
               </a>
             }
@@ -141,17 +144,24 @@ export default function Projects() {
             }
           />
           <ProjectsCard
-            title="Shop App"
-            des="Buy the Best and Most Beautiful Types of Coffee
-            in The World ... Enjoy and Taste it Well."
+            title="Movie App - Netflix Clone"
+            des="Need something to watch? We’re on it.
+            Plex combines free movies & TV with the best free streaming services,
+            so there’s always more to discover."
             img={proImg7}
             gitHub={
-              <a href="http://google.com" target="_blank">
+              <a
+                href="https://github.com/ZiadAbdElkader97/MovieApp-Netflix"
+                target="_blank"
+              >
                 <FaGithub />
               </a>
             }
             view={
-              <a href="http://google.com" target="_blank">
+              <a
+                href="https://movie-app-pink-six-39.vercel.app/"
+                target="_blank"
+              >
                 <FaGlobe />
               </a>
             }
