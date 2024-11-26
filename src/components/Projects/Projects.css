@@ -14,7 +14,6 @@
   height: 450px;
   display: flex;
   flex-direction: column;
-  /* gap: 20px; */
   background-image: linear-gradient(to right, #222529, #202327);
   padding: 40px 48px;
   border-radius: 8px;
@@ -47,11 +46,16 @@
 }
 .pro-details .pro-heading {
   color: var(--main-color);
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   font-family: var(--main-fontFamily);
   text-transform: uppercase;
   margin-left: 5px;
+}
+@media (max-width: 420px) {
+  .pro-details .pro-heading {
+    font-size: 14px;
+  }
 }
 .pro-details .pro-icon {
   display: inline-flex;

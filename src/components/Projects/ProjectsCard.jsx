@@ -11,12 +11,8 @@ export default function ProjectsCard({ title, des, img, gitHub, view }) {
         <div className="pro-details">
           <h3 className="pro-heading">{title}</h3>
           <div className="flex gap-2">
-            <span className="pro-icon">
-              {gitHub}
-            </span>
-            <span className="pro-icon">
-              {view}
-            </span>
+            <span className="pro-icon">{gitHub}</span>
+            <span className="pro-icon">{view}</span>
           </div>
         </div>
         <div>
