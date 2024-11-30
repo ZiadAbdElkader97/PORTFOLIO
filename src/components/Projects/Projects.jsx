@@ -9,7 +9,7 @@ import proImg2 from "../../assets/food-app.jpg";
 import proImg3 from "../../assets/todo-app.jpg";
 // import proImg4 from "../../assets/educational-app.jpg";
 // import proImg5 from "../../assets/prayer-app.jpg";
-// import proImg6 from "../../assets/real-estate-app.jpeg";
+import proImg6 from "../../assets/calculator-app.jpg";
 import proImg7 from "../../assets/movie-app.jpg";
 // import proImg8 from "../../assets/Travel-and-Tour-App.jpg";
 
@@ -43,6 +43,7 @@ export default function Projects() {
       </div>
       <div>
         <Carousel responsive={responsive}>
+          {/* E-Commerce App */}
           <ProjectsCard
             title="e-commerce app - pixio shop"
             des="It was Designed by Me to Enable the Buying and Selling
@@ -63,6 +64,7 @@ export default function Projects() {
               </a>
             }
           />
+          {/* Food App */}
           <ProjectsCard
             title="food app - food palace"
             des="Enjoy The Best Food in The World and Order through
@@ -82,6 +84,7 @@ export default function Projects() {
               </a>
             }
           />
+          {/* Todo App */}
           <ProjectsCard
             title="todo app - record notes"
             des="Go through your Day Easily With the My Notes Website
@@ -133,22 +136,24 @@ export default function Projects() {
               </a>
             }
           /> */}
-          {/* <ProjectsCard
-            title="Real Estate App"
-            des="The real estate market is highly digitized.
-            Homebuyers no longer go from one agent to another to find a suitable property."
+          {/* Calculator App */}
+          <ProjectsCard
+            title="calculator app"
+            des="You are now able to calculate all your mathematical operations quickly and easily.
+            A calculator is a device that performs arithmetic operations on numbers."
             img={proImg6}
             gitHub={
-              <a href="http://google.com" target="_blank">
+              <a href="https://github.com/ZiadAbdElkader97/CalculatorApp" target="_blank">
                 <FaGithub />
               </a>
             }
             view={
-              <a href="http://google.com" target="_blank">
+              <a href="https://calculator-app-eight-brown.vercel.app/" target="_blank">
                 <FaGlobe />
               </a>
             }
-          /> */}
+          />
+          {/* Movie App */}
           <ProjectsCard
             title="Movie App - Netflix Clone"
             des="Need something to watch? We’re on it.
