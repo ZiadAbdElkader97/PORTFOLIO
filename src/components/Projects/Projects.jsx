@@ -12,6 +12,7 @@ import proImg3 from "../../assets/todo-app.jpg";
 import proImg6 from "../../assets/calculator-app.jpg";
 import proImg7 from "../../assets/movie-app.jpg";
 // import proImg8 from "../../assets/Travel-and-Tour-App.jpg";
+import proImg9 from "../../assets/zistilo-app.jpg";
 
 export default function Projects() {
   const responsive = {
@@ -52,7 +53,7 @@ export default function Projects() {
             img={proImg1}
             gitHub={
               <a
-                href="https://github.com/ZiadAbdElkader97/CommerceApp"
+                href="https://github.com/ZiadAbdElkader97/Pixio-Commerce-App"
                 target="_blank"
               >
                 <FaGithub />
@@ -72,7 +73,7 @@ export default function Projects() {
             img={proImg2}
             gitHub={
               <a
-                href="https://github.com/ZiadAbdElkader97/FoodApp"
+                href="https://github.com/ZiadAbdElkader97/Food-Palace-App"
                 target="_blank"
               >
                 <FaGithub />
@@ -92,7 +93,7 @@ export default function Projects() {
             img={proImg3}
             gitHub={
               <a
-                href="https://github.com/ZiadAbdElkader97/TodoApp"
+                href="https://github.com/ZiadAbdElkader97/Todo-App"
                 target="_blank"
               >
                 <FaGithub />
@@ -143,17 +144,23 @@ export default function Projects() {
             A calculator is a device that performs arithmetic operations on numbers."
             img={proImg6}
             gitHub={
-              <a href="https://github.com/ZiadAbdElkader97/CalculatorApp" target="_blank">
+              <a
+                href="https://github.com/ZiadAbdElkader97/Calculator-App"
+                target="_blank"
+              >
                 <FaGithub />
               </a>
             }
             view={
-              <a href="https://calculator-app-eight-brown.vercel.app/" target="_blank">
+              <a
+                href="https://calculator-app-eight-brown.vercel.app/"
+                target="_blank"
+              >
                 <FaGlobe />
               </a>
             }
           />
-          {/* Movie App */}
+          {/* Netflix Movie App */}
           <ProjectsCard
             title="Movie App - Netflix Clone"
             des="Need something to watch? We’re on it.
@@ -161,7 +168,7 @@ export default function Projects() {
             img={proImg7}
             gitHub={
               <a
-                href="https://github.com/ZiadAbdElkader97/MovieApp-Netflix"
+                href="https://github.com/ZiadAbdElkader97/Netflix-Movie-App"
                 target="_blank"
               >
                 <FaGithub />
@@ -172,6 +179,26 @@ export default function Projects() {
                 href="https://movie-app-pink-six-39.vercel.app/"
                 target="_blank"
               >
+                <FaGlobe />
+              </a>
+            }
+          />
+          {/* Zistilo Group App */}
+          <ProjectsCard
+            title="zistilo group app"
+            des="I Really Love To Create This Amazing Portfolio.
+            Watch the movements and transitions and tell me what you think."
+            img={proImg9}
+            gitHub={
+              <a
+                href="https://github.com/ZiadAbdElkader97/Zistilo-Group-App"
+                target="_blank"
+              >
+                <FaGithub />
+              </a>
+            }
+            view={
+              <a href="https://zistilo-group-app.vercel.app/" target="_blank">
                 <FaGlobe />
               </a>
             }
